@@ -1,1 +1,1 @@
-export { default } from 'ember-cordova-splashscreen/services/ember-cordova/splash';
+export { default } from 'ember-cordova-splash/services/ember-cordova/splash';

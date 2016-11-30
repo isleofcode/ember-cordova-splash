@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-cordova-splashscreen'
+  name: 'ember-cordova-splash'
 };
