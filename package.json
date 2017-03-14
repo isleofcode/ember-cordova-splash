@@ -5,19 +5,16 @@
   "directories": {
     "test": "tests"
   },
-
   "license": "MIT",
   "repository": "",
   "engines": {
     "node": ">= 0.10.0"
   },
-
   "author": {
     "name": "Alex Blom",
     "email": "alex@isleofcode.com",
     "url": "https://isleofcode.com"
   },
-
   "contributors": [
     {
       "name": "Aidan Nulman",
@@ -30,7 +27,6 @@
       "url": "https://isleofcode.com"
     }
   ],
-
   "keywords": [
     "ember-addon",
     "cordova",
@@ -42,7 +38,6 @@
     "ember-cordova",
     "ember-cordova-splash"
   ],
-
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
     "ember-cli": "2.7.0",
@@ -53,6 +48,7 @@
     "ember-cli-release": "^0.2.9",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-test-loader": "^1.1.0",
+    "ember-cli-testdouble": "0.1.0",
     "ember-cli-uglify": "^1.2.0",
     "ember-disable-prototype-extensions": "^1.1.0",
     "ember-export-application-global": "^1.0.5",
@@ -60,11 +56,9 @@
     "ember-resolver": "^2.0.3",
     "loader.js": "^4.0.1"
   },
-
   "dependencies": {
     "ember-cli-babel": "^5.1.6"
   },
-
   "ember-addon": {
     "configPath": "tests/dummy/config"
   }
