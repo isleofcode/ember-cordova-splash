@@ -1,4 +1,3 @@
-/* global navigator */
 import Ember from 'ember';
 
 const {
@@ -9,6 +8,7 @@ const {
 export default Service.extend({
   hide() {
     document.addEventListener('deviceready', function() {
+      const navigator = window.navigator;
       if (isPresent(navigator) && isPresent(navigator.splashscreen)) {
         navigator.splashscreen.hide();
       }
@@ -17,6 +17,7 @@ export default Service.extend({
 
   show() {
     document.addEventListener('deviceready', function() {
+      const navigator = window.navigator;
       if (isPresent(navigator) && isPresent(navigator.splashscreen)) {
         navigator.splashscreen.show();
       }
