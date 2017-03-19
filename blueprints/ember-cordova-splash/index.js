@@ -3,7 +3,7 @@
 const ecInstaller   = require('ember-cordova-installer');
 
 module.exports = {
-  description: 'Installs the cordova ionic keyboard plugin',
+  description: 'Installs the cordova splashscreen plugin',
 
   normalizeEntityName: function() {},
 
