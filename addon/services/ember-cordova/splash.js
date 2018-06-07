@@ -1,9 +1,5 @@
-import Ember from 'ember';
-
-const {
-  Service,
-  isPresent
-} = Ember;
+import Service from '@ember/service';
+import { isPresent } from '@ember/utils';
 
 export default Service.extend({
   hide() {
